@@ -1,10 +1,13 @@
 source "https://rubygems.org"
 
+gem 'activerecord', require: 'active_record'
 gem 'sinatra', require: 'sinatra/base'
 gem 'sinatra-reloader', require: false
+gem 'sqlite3'
 gem 'shotgun'
 gem 'pry'
 gem 'tux'
+gem 'rake'
 gem 'require_all'
 
 group :test do
